@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600;700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,700&family=Rubik:wght@300&family=Work+Sans:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200&display=swap"
+        rel="stylesheet">
+    <title>Mira Hotel</title>
+</head>
+
+<body>
+
+    <!-- start lodar -->
+    <!-- <div class="loader">
+        <div class="intern">
+        </div>
+        <div class="external-shadow">
+            <div class="central">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- end lodar -->
+    <!-- start header -->
+<div class="top-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 ">
+
+                <div class="icontop">
+                    <div class="language-eng ">
+                        <img src="imgs/flag.jpg" alt="">
+                        <span>EN <i class="fa fa-angle-down"></i></span>
+                        <div class="arbc-dropdown">
+                            <ul>
+                                <li><a href="#">AR</a></li>
+                                <li><a href="#">Fr</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-secondary mb-2 mt-1">Booking Now</a>
+
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- --- -->
+    <!-- start topbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <img src="imgs/project_comment_file656f13968349f-Mira-Hotel-Logo (1).png" class="logo" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Rooms.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="Aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link   " aria-current="page" href="server.html">Server</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="blog.html">Blog </a>
+                    </li>
+
+
+                   
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <a href="index.html" class=" mb-2 mt-1 btn btn-danger">Log out</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end topbar -->
+    <!-- start contact -->
+    <div class="conatct">
+        <div class="container">
+            <div class="text-room text-center">
+                <h2>Our Rooms</h2>
+                <a href="index.html" class="colms">Home > <p class="text-white ms-1">Rooms</p></a>
+            </div>
+            <div class="row">
+                <div class="silderooms">
+                    <div class="tabs text-center">
+                        <button class="tab-button mb-1" onclick="showCategory('nature')">ROOMS & SUITES</button>
+                        <button class="tab-button mb-1" onclick="showCategory('animals')">RESTAURANTS & BARS</button>
+                        <button class="tab-button mb-1" onclick="showCategory('cities')">SPA</button>
+                    </div>
+                </div>
+                <div class="col-lg">
+
+                    <div class="gallery" id="nature">
+
+                        <div class="ooo">
+
+                            <a data-fancybox="images" href="imgs/room 3.jpg">
+                                <img src="imgs/room 3.jpg" alt="Image 1">
+                            </a>
+                            <a data-fancybox="images" href="imgs/room 3.jpg">
+                                <img src="imgs/room 3.jpg" alt="Image 2">
+                            </a>
+                            <a data-fancybox="images" href="imgs/room 3.jpg">
+                                <img src="imgs/room 3.jpg" alt="Image 3">
+                            </a>
+                            <a data-fancybox="images" href="imgs/room21.jpg">
+                                <img src="imgs/room21.jpg" alt="Image 3">
+                            </a>
+                            <a data-fancybox="images" href="imgs/room21.jpg">
+                                <img src="imgs/room21.jpg" alt="Image 3">
+                            </a>
+                            <a data-fancybox="images" href="imgs/room21.jpg">
+                                <img src="imgs/room21.jpg" alt="Image 3">
+                            </a>
+                        </div>
+
+
+
+                    </div>
+                    <div class="gallery" id="cities" style="display:none;">
+
+                        <div class="ooo ">
+
+                            <a data-fancybox="images" href="imgs/5V7A4061.jpg">
+                                <img src="imgs/5V7A4061.jpg" alt="Image 1">
+                            </a>
+                            <a data-fancybox="images" href="imgs/5V7A4061.jpg">
+                                <img src="imgs/5V7A4061.jpg" alt="Image 2">
+                            </a>
+                            <a data-fancybox="images" href="imgs/5V7A4061.jpg">
+                                <img src="imgs/5V7A4061.jpg" alt="Image 3">
+                            </a>
+                            <a data-fancybox="images" href="imgs/room 3.jpg">
+                                <img src="imgs/room 3.jpg" alt="Image 4">
+                            </a>
+                            <a data-fancybox="images" href="imgs/room21.jpg">
+                                <img src="imgs/room21.jpg" alt="Image 1">
+                            </a>
+                            <a data-fancybox="images" href="imgs/5V7A4061.jpg">
+                                <img src="imgs/5V7A4061.jpg" alt="Image 2">
+                            </a>
+                            <a data-fancybox="images" href="imgs/5V7A4061.jpg">
+                                <img src="imgs/5V7A4061.jpg" alt="Image 3">
+                            </a>
+                            <a data-fancybox="images" href="imgs/5V7A4061.jpg">
+                                <img src="imgs/5V7A4061.jpg" alt="Image 4">
+                            </a>
+                            <a data-fancybox="images" href="imgs/5V7A4061.jpg">
+                                <img src="imgs/5V7A4061.jpg" alt="Image 4">
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="gallery" id="animals" style="display:none;">
+                        <div class="ooo">
+
+                            <a data-fancybox="images" href="imgs/room21.jpg">
+                                <img src="imgs/room21.jpg" alt="Image 1">
+                            </a>
+                            <a data-fancybox="images" href="imgs/5V7A3932.jpg">
+                                <img src="imgs/5V7A3932.jpg" alt="Image 2">
+                            </a>
+                            <a data-fancybox="images" href="imgs/5V7A4017.jpg">
+                                <img src="imgs/5V7A4017.jpg" alt="Image 3">
+                            </a>
+                            <a data-fancybox="images" href="imgs/room21.jpg">
+                                <img src="imgs/room21.jpg" alt="Image 3">
+                            </a>
+                            <a data-fancybox="images" href=imgs/5V7A3932.jpg>
+                                <img src=imgs/5V7A3932.jpg alt="Image 3">
+                            </a>
+                            <a data-fancybox="images" href=imgs/5V7A4017.jpg>
+                                <img src=imgs/5V7A4017.jpg alt="Image 3">
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="next">
+                    <p>1</p>
+                    <p>2</p>
+                    <button>Next</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+   
+
+    <!-- start footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="txetfoot">
+                        <img src="imgs/project_comment_file656f13968349f-Mira-Hotel-Logo (1).png" class="logofooter"
+                            alt="">
+                        <p class="text-white">We inspire and reach millions of travelers
+                            across 90 local websites</p>
+                        <div class="iconfoot">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-snapchat"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="txetfooot ">
+                        <ul>
+                            <div class="">Contact us</div>
+                            <li class="text-white">(12) 345 67890</li>
+                            <li class="text-white">info.colorlib@gmail.com</li>
+                            <li class="text-white">856 Cordia Extension Apt. 356, Lake, United State</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="txetfooot">
+                        <div>New latest</div>
+                        <p class="text-white">Get the latest updates and offers.</p>
+                        <div class="inpfoot">
+                            <input type="text" placeholder="send me">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    <!-- start undrfooter -->
+    <div class="under-footer mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg ">
+                    <div class="ude ">
+                        <a href="#">Contact</a>
+                        <a href="#">Terms of use</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Environmental Policy</a>
+                    </div>
+                </div>
+                <div class="col-lg ">
+                    <div class="udee ">
+                        <div>Copyright ©2023 All rights reserved | This template is made with by <span
+                                class="colms">Qutell</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end undrfooter -->
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            cssMode: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+
+    </script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+        });
+        Fancybox.bind('[data-fancybox="gallery"]', {
+            // Your custom options
+        });
+    </script>
+    <script>
+
+        $(document).ready(function () {
+            $("[data-fancybox]").fancybox({
+                loop: true,
+                arrows: true,
+                infobar: true,
+                // Add any additional options here
+            });
+        });
+    </script>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+</body>
+
+</html>
