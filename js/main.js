@@ -75,3 +75,7 @@ function submitForm() {
   // For simplicity, let's just display an alert with the entered username and password
   alert("Username: " + username + "\nPassword: " + password);
 }
+
+
+
+
