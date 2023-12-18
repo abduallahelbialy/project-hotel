@@ -1643,7 +1643,27 @@ font-family: 'Lora', serif;
   width: 361px;
     margin-bottom: 10px;
 }
+@media (max-width:1024px) {
+  .gaelldetils{
+    flex-direction: column;
+  }
+  .gaelldetils img{
+    width:100% !important;
+  } 
+}
+.gaelldetilss img{
+  width: 361px;
+    margin-bottom: 10px;
+}
 @media (max-width:992px) {
+  .gaelldetilss{
+    flex-direction: column;
+  }
+  .gaelldetilss img{
+    width:100% !important;
+  } 
+}
+@media (max-width:1024px) {
   .gaelldetilss{
     flex-direction: column;
   }
